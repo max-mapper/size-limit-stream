@@ -24,7 +24,7 @@ var limiter = limitStream(1024 * 5) // 5kb max
 
 create a stream that concatenates input, but only if input is less than the limit:
 
-```
+```js
 var pumpify = require('pumpify')
 var concat = require('concat-stream')
 var limitStream = require('size-limit-stream')
