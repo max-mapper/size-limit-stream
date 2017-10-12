@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/maxogden/size-limit-stream",
   "dependencies": {
-    "through2": "^0.6.3"
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "standard": "^3.3.0",
